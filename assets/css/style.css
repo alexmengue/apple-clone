@@ -15,3 +15,12 @@ header {
   top: 0;
   z-index: 1;
 }
+
+header nav ul {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
