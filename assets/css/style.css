@@ -5,3 +5,13 @@
   --subtitle: #6E6E73;
   --action: #2997FF;
 }
+
+header {
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+  height: fit-content;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
