@@ -24,3 +24,12 @@ header nav ul {
   gap: 1rem;
   padding: 0 2rem;
 }
+
+header nav ul li {
+  min-width: fit-content;
+  height: fit-content;
+  padding: 0 0.75rem;
+  font-size: small;
+  cursor: pointer;
+  list-style: none;
+}
