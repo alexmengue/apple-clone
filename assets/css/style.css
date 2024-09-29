@@ -34,3 +34,15 @@ header nav ul li {
   cursor: pointer;
   list-style: none;
 }
+
+main section {
+  text-align: center;
+}
+
+main section h1 {
+  color: var(--title-primary);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
