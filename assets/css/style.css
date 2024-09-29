@@ -46,3 +46,11 @@ main section h1 {
   line-height: 4rem;
   letter-spacing: -0.28px;
 }
+
+main section h2 {
+  color: var(--subtitle);
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2.5rem;
+  letter-spacing: 0.11px;
+}
