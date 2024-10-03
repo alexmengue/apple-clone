@@ -55,6 +55,10 @@ main section h2 {
   letter-spacing: 0.11px;
 }
 
+main section sub {
+  font-size: 0.9rem;
+}
+
 main section a {
   color: var(--action);
   line-height: 1.8rem;
