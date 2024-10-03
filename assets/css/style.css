@@ -53,6 +53,7 @@ main section h2 {
   font-weight: normal;
   line-height: 2.5rem;
   letter-spacing: 0.11px;
+  margin-bottom: 1rem;
 }
 
 main section sub {
@@ -64,6 +65,11 @@ main section a {
   line-height: 1.8rem;
   font-size: 1.2rem;
   text-decoration: none;
+  cursor: pointer;
+}
+
+main section a:hover {
+  text-decoration: underline;
 }
 
 main section .text-wrapper {
