@@ -39,7 +39,7 @@ main section {
   text-align: center;
 }
 
-main section h1 {
+main .main-section h1 {
   color: var(--title-primary);
   font-size: 3rem;
   font-weight: bold;
@@ -47,7 +47,7 @@ main section h1 {
   letter-spacing: -0.28px;
 }
 
-main section h2 {
+main .main-section h2 {
   color: var(--subtitle);
   font-size: 2rem;
   font-weight: normal;
@@ -56,11 +56,11 @@ main section h2 {
   margin-bottom: 1rem;
 }
 
-main section sub {
+main .main-section sub {
   font-size: 0.9rem;
 }
 
-main section a {
+main .main-section a {
   color: var(--action);
   line-height: 1.8rem;
   font-size: 1.2rem;
@@ -68,11 +68,11 @@ main section a {
   cursor: pointer;
 }
 
-main section a:hover {
+main .main-section a:hover {
   text-decoration: underline;
 }
 
-main section .text-wrapper {
+main .main-section .text-wrapper {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -82,7 +82,7 @@ main section .text-wrapper {
   margin-top: 51px;
 }
 
-main section img {
+main .main-section img {
   width: 100%;
   height: auto;
 }
