@@ -86,3 +86,9 @@ main .main-section img {
   width: 100%;
   height: auto;
 }
+
+main .spirited-section > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
