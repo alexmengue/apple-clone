@@ -4,6 +4,7 @@
   --title-primary: #F5F5F7;
   --subtitle: #6E6E73;
   --action: #2997FF;
+  --spirited-main-color: #DED2B9;
 }
 
 header {
@@ -100,4 +101,12 @@ main .spirited-section > div:first-child {
   justify-content: space-between;
   width: 100%;
   max-width: 60%;
+}
+
+main .spirited-section > div:first-child p {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  color: var(--spirited-main-color);
+  letter-spacing: -0.6px;
 }
