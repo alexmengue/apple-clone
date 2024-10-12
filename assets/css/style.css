@@ -37,6 +37,7 @@ header nav ul li {
 
 main section {
   text-align: center;
+  position: relative;
 }
 
 main .main-section h1 {
@@ -91,4 +92,12 @@ main .spirited-section > div {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+main .spirited-section > div:first-child {
+  top: 105px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 60%;
 }
