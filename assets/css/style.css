@@ -110,3 +110,10 @@ main .spirited-section > div:first-child p {
   color: var(--spirited-main-color);
   letter-spacing: -0.6px;
 }
+
+.main .spirited-section p {
+  column-rule: var(--text-light);
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.11px;
+}
