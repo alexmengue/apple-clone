@@ -41,6 +41,11 @@ main section {
   position: relative;
 }
 
+main section img {
+  width: 100%;
+  height: auto;
+}
+
 main .main-section h1 {
   color: var(--title-primary);
   font-size: 3rem;
@@ -84,11 +89,6 @@ main .main-section .text-wrapper {
   margin-top: 51px;
 }
 
-main .main-section img {
-  width: 100%;
-  height: auto;
-}
-
 main .spirited-section > div {
   position: absolute;
   left: 50%;
@@ -112,8 +112,16 @@ main .spirited-section > div:first-child p {
 }
 
 .main .spirited-section p {
-  column-rule: var(--text-light);
+  column-rule: var(--title-primary);
   font-size: 1.5rem;
   line-height: 1.8rem;
   letter-spacing: 0.11px;
+}
+
+main .spirited-section span {
+  color: var(--text-light);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: block;
+  letter-spacing: 0.23px;
 }
