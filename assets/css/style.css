@@ -36,6 +36,12 @@ header nav ul li {
   list-style: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 main section {
   text-align: center;
   position: relative;
@@ -93,6 +99,10 @@ main .spirited-section > div {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+main .spirited-section > div:last-child {
+  bottom: 50px;
 }
 
 main .spirited-section > div:first-child {
