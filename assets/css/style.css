@@ -1,6 +1,7 @@
 :root {
   --bg-primary: #000000;
   --text-light: #FFFFFF;
+  --text-dark: #1D1D1F;
   --title-primary: #F5F5F7;
   --subtitle: #6E6E73;
   --action: #2997FF;
@@ -134,4 +135,47 @@ main .spirited-section span {
   line-height: 1.5rem;
   display: block;
   letter-spacing: 0.23px;
+}
+
+main .iphone-section h2 {
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .iphone-section p {
+  color: var(--text-dark);
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2.5rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .iphone-section .link-wrapper {
+  soon
+}
+
+main .iphone-section a {
+  color: var(--action);
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main .iphone-section a:hover {
+  text-decoration: underline;
+}
+
+main .iphone-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
 }
