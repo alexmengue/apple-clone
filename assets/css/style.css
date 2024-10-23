@@ -155,7 +155,10 @@ main .iphone-section p {
 }
 
 main .iphone-section .link-wrapper {
-  soon
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 main .iphone-section a {
