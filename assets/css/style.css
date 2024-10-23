@@ -74,7 +74,7 @@ main .main-section sub {
   font-size: 0.9rem;
 }
 
-main .main-section a {
+main section a {
   color: var(--action);
   line-height: 1.8rem;
   font-size: 1.2rem;
@@ -159,18 +159,6 @@ main .iphone-section .link-wrapper {
   align-items: center;
   justify-content: center;
   gap: 8px;
-}
-
-main .iphone-section a {
-  color: var(--action);
-  line-height: 1.8rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-main .iphone-section a:hover {
-  text-decoration: underline;
 }
 
 main .iphone-section .text-wrapper {
