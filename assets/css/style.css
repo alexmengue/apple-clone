@@ -53,6 +53,18 @@ main section img {
   height: auto;
 }
 
+main section a {
+  color: var(--action);
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main section a:hover {
+  text-decoration: underline;
+}
+
 main .main-section h1 {
   color: var(--title-primary);
   font-size: 3rem;
@@ -72,18 +84,6 @@ main .main-section h2 {
 
 main .main-section sub {
   font-size: 0.9rem;
-}
-
-main section a {
-  color: var(--action);
-  line-height: 1.8rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-main .main-section a:hover {
-  text-decoration: underline;
 }
 
 main .main-section .text-wrapper {
